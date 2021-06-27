@@ -39,7 +39,7 @@ public class EmployeeController {
 	public String saveEmp(@ModelAttribute Employee employee, Model model)
 
 	{
-		log.info("entered into the saveEmp()");
+		log.info("entered into the saveEmp()..");
 		try {
 			Integer id = service.saveEmployee(employee);
 			String message = "Employee" + " " + id + " " + "created!!";
